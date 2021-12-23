@@ -1,0 +1,993 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* HEADER SECTION START HERE */
+#header {
+    background: rgba(43, 46, 59,.8);
+    padding: 20px 0;
+    position: absolute;
+    width: 100%; 
+    z-index: 1;
+}
+#header .line {
+    background: rgba(229, 229, 229,.5);
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+#header .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header .logo {
+    width: 50%;
+}
+#header .info {
+    width: 50%;
+}
+#header .info .information {
+    width: 100px;
+    height: 20px;
+    border-right: 2px solid rgba(229, 229, 229,.5);
+    color: white;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+#header .info .information:last-child {
+    border: none;
+}
+
+#header .bottom-header {
+    margin-top: 100px;
+}
+
+#header .menu-item {
+    width: 50%;
+}
+#header .menu-item ul {
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+#header .menu-item ul li {
+    margin-right: 20px;
+}
+#header .social-icons {
+    width: 50%;
+    text-align: right;
+}
+
+#header .social-icons i {
+   font-size: 30px;
+   color: #fff;
+   margin-right: 20px;
+}
+#header .social-icons .srch {
+    margin-left: 35px;
+}
+
+/* HEADER SECTION END HERE */
+
+/* BANNER SECTION START HERE */
+
+#banner-part {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+    padding-top: 340px;
+    position: relative;
+}
+#banner-part h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    width: 650px;
+}
+#banner-part p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    width: 620px;
+    margin-top: 30px;
+}
+#banner-part a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    background: #1853B5;
+    padding: 22px;
+    border-radius: 50px;
+    margin-top: 68px;
+}
+
+#banner-part .round {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #1893B5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 34%;
+    right: 30%;
+}
+#banner-part .inner-round {
+    width: 105px;
+    height: 105px;
+    background: #1893B5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner-part .inner-round i {
+    font-size: 30px;
+    color: #fff;
+}
+
+/* BANNER SECTION END HERE */
+
+/* ABOUT SECTION START HERE */
+
+#about-part {
+    margin-top: 80px;
+}
+#about-part .main {
+    display: flex;
+}
+#about-part .left .round {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #1893B5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 77%;
+    left: 68%;
+}
+#about-part .left .inner-round {
+    width: 90px;
+    height: 90px;
+    background: #1893B5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-part .left .inner-round i {
+    font-size: 30px;
+    color: #fff;
+}
+
+#about-part .left {
+    width: 40%;
+    position: relative;
+}
+#about-part .left .bottom-img {
+    position: absolute;
+    top: 122px;
+    left: 226px;
+}
+#about-part .left .dots {
+    position: absolute;
+    left: 230px;
+    top: 410px;
+    z-index: -1;
+}
+
+#about-part .right {
+    width: 60%;
+    box-sizing: border-box;
+    padding-left: 100px;
+}
+#about-part .right .title {
+    position: relative;
+}
+#about-part .right .title h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    margin-bottom: 10px;
+}
+
+#about-part .right .title .line {
+    width: 53px;
+    height: 2px;
+    background: black;
+}
+
+#about-part .right .title .round {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -6px;
+    left: 20px;
+}
+#about-part .right h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    width: 692px;
+    margin-top: 18px;
+}
+#about-part .right p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    width: 656px;
+    margin-top: 18px;
+    opacity: .6;
+}
+
+#about-part .right li {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+#about-part .right a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    background: #1853B5;
+    padding: 22px;
+    border-radius: 50px;
+    margin-top: 68px;
+}
+/* ABOUT SECTION END HERE */
+
+/* PARTNER SECTION START HERE */
+
+#partner-part {
+    margin-top: 100px;
+}
+#partner-part .title h2{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#partner-part .title span {
+    color: #1893B5;
+    border-bottom: 1px solid #1893B5;
+}
+#partner-part .main {
+    display: flex;
+    justify-content: space-between;
+}
+#partner-part img {
+    filter: grayscale(100%);
+    transition: .4s;
+    margin-bottom: 80px;
+}
+#partner-part img:hover {
+    filter: grayscale(0%);
+}
+
+/* HEADER SECTION END HERE */
+
+/* SERVICE SECTION START HERE */
+
+#service-part .title {
+    position: relative;
+    text-align: center;
+}
+
+
+#service-part .title .line {
+    width: 53px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+}
+
+#service-part .title .round {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#service-part h2 {
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#service-part h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    margin-bottom: 5px;
+}
+#service-part .main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#service-part .item {
+    width: 23%;
+    margin-top: 30px;
+    text-align: center;
+    padding: 50px 0;
+    background: transparent;
+    border-radius: 30px;
+    transition: .4s;
+}
+#service-part .item h4 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+#service-part .item i {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #1893B5;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    transition: .4s;
+}
+#service-part .item:hover {
+    background: #1853B5;
+    color: #fff;
+}
+#service-part .item:hover i {
+    background: #fff;
+    color: #000;
+}
+#service-part .button {
+    text-align: center;
+    margin-top: 50px;
+}
+#service-part .button a {
+    display: inline-block;
+    background: #1893B5;
+    padding: 15px 20px; 
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 100px;
+}
+
+/* SERVICE SECTION END HERE */
+
+/* CONTACT SECTION START HERE */
+
+#contact-part {
+    margin-top: 80px;
+    background: url(../images/cta-bg-1-1.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+#contact-part h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+    width: 942px;
+    margin: 0 auto;
+}
+#contact-part .button {
+    text-align: center;
+    margin-top: 50px;
+}
+#contact-part .button a {
+    display: inline-block;
+    background: #1893B5;
+    padding: 15px 20px; 
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 100px;
+}
+
+/* CONTACT SECTION END HERE */
+
+
+/* BLOG SECTION START HERE */
+
+#blog-part {
+    margin-top: 80px;
+}
+#blog-part .title {
+    position: relative;
+    text-align: center;
+}
+
+
+#blog-part .title .line {
+    width: 53px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+}
+
+#blog-part .title .round {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#blog-part h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    margin-bottom: 5px;
+}
+#blog-part h2 {
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#blog-part .main {
+    display: flex;
+    justify-content: space-between;
+}
+#blog-part .item {
+    width: 32%;
+    margin-top: 30px;
+}
+#blog-part .item .img {
+    position: relative;
+}
+#blog-part .item .img img {
+    width: 100%;
+    display: block;
+}
+#blog-part .item .tag {
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background: #1893B5;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#blog-part .item .text {
+    border: 1px solid #E5E5E5E5;
+    border-top: 0;
+}
+#blog-part .item .text img {
+    transform: translateY(-50%);
+    margin-left: 20px;
+}
+#blog-part .text .desc h5 {
+    color: #1893B5;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#blog-part .text .desc {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#blog-part .text .desc h4 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+}
+#blog-part .text .desc p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #555555;
+}
+
+
+/* BLOG SECTION END HERE */
+
+/* CHOOSE SECTION START START */
+
+#choose-part .main{
+    display: flex;
+}
+
+#choose-part .left{
+    margin-top: 80px;
+    width: 50%;
+
+}
+#choose-part .left h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#choose-part .left p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#choose-part .left .box {
+    width: 80%;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-left: 8px solid #1893B5;
+}
+#choose-part .left .box h5 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+}
+#choose-part .left .box h5 i {
+    color: #1893B5;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#choose-part .left p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#choose-part .right{
+    margin-top: 80px;
+    width: 50%;
+}
+
+#choose-part .title {
+    position: relative;
+}
+
+
+#choose-part .title .line {
+    width: 53px;
+    height: 2px;
+    background: black;
+}
+
+#choose-part .title .round {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -6px;
+    left: 20px;
+}
+
+#choose-part .title h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    margin-bottom: 10px;
+}
+
+/* CHOOSE SECTION END HERE */
+
+/* COUNTER SECTION START HERE */
+
+#counter-part {
+    margin-top: 80px;
+    padding: 100px 0;
+    background: url(../images/counter-bg-1-1.jpg) no-repeat center;
+    background-size: cover;
+    text-align:center;
+}
+#counter-part .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#counter-part .main .item h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    color: #fff;
+}
+#counter-part .main .item p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* COUNTER SECTION END HERE */
+
+
+/* PROJECTT SECTION START HERE */
+#project-part {
+    margin-top: 80px;
+}
+#project-part .title {
+    position: relative;
+    text-align: center;
+}
+
+
+#project-part .title .line {
+    width: 53px;
+    height: 2px;
+    background: black;
+    margin: 0 auto;
+}
+
+#project-part .title .round {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#project-part h2 {
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#project-part h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    margin-bottom: 10px;
+}
+
+#project-part .items ul {
+    display: flex;
+    justify-content: center;
+}
+
+#project-part .items ul li {
+    color: #555555;
+    padding: 14px 18px;
+    border: 1px solid #000;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 15px;
+    margin-top: 30px;
+    transition: .4s;
+}
+
+#project-part .items ul li:hover {
+    background: #1893B5;
+    border-color: #1893B5;
+    color: #fff;
+    cursor: pointer;
+}
+#project-part .images img{
+    margin-bottom: 10px;
+}
+#project-part .images .main {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+#project-part .images .left {
+    width: 34.5%;
+}
+#project-part .images .middle {
+    width: 17%;
+}
+#project-part .images .right {
+    width: 16%;
+}
+/* PROJECT SECTION END HERE */
+
+/* SUBSCRIBE SECTION START HERE */
+
+#subscribe-part {
+    margin-top: 80px;
+    background: url(../images/newsletter-bg-1-1.png) no-repeat center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+#subscribe-part h2 {
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    width: 650px;
+    margin: 0 auto;
+}
+#subscribe-part form {
+    text-align: center;
+    margin-top: 50px;
+}
+#subscribe-part input {
+    width: 740px;
+    padding: 20px 50px;
+    border-radius: 30px;
+    border: 0;
+    background: #eeebed;
+    margin: 0 auto;
+}
+#subscribe-part input::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#subscribe-part button {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background: #1893B5;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: -163px;
+}
+#subscribe-part i {
+    position: absolute;
+    left: 265px;
+    bottom: 20px;
+}
+
+/* SUBSCRIBE SECTION END HERE */
+
+
+
+/* TESTIMONIAL SECTION START HERE */
+
+#testimonial-part .main {
+    display: flex;
+}
+#testimonial-part .image {
+    width: 48.5%;
+    margin-left: 18px;
+}
+
+#testimonial-part .desc {
+    width: 50%;
+}
+
+#project-part .title {
+    position: relative;
+    text-align: center;
+}
+
+
+#testimonial-part .title .line {
+    width: 53px;
+    height: 2px;
+    background: black;
+}
+
+#testimonial-part .title .round {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 51.5%;
+    top: 7%;
+}
+
+#testimonial-part h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #1893B5;
+    margin-bottom: 10px;
+}
+#testimonial-part .desc h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    width: 650px;
+    margin-top: 30px;
+}
+#testimonial-part .desc p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+}
+#testimonial-part .desc .box {
+    margin-top: 25%;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    padding: 15px;
+}
+#testimonial-part .desc .box h3 {
+    font-family: 'Philosopher', sans-serif;
+    color: black;
+    font-weight: 700;
+}
+#testimonial-part .desc .box h3 .start-icon {
+    margin-left: 45%;
+}
+#testimonial-part .desc .box h3 .good-review {
+    color: orange;
+}
+#testimonial-part .desc .box span {
+    color: #555555;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+#testimonial-part .desc .box .some-text {
+    border-left: 2px solid #1893B5;
+    padding-left: 20px;
+    font-family: 'Philosopher', sans-serif;
+    font-style: italic;
+    color: #555555;
+    font-size: 15px;
+    margin-top: 15px;
+}
+/* TESTIMONIAL SECTION END HERE */
+
+
+/* FOOTER SECTION START HERE */
+#footer-part {
+    margin: 200px 100px;
+}
+
+#footer-part .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-part .logo {
+    width: 30%;
+}
+#footer-part .link {
+    width: 20%;
+}
+#footer-part .help {
+    width: 20%;
+}
+#footer-part .contact {
+    width: 20%;
+}
+
+#footer-part .logo p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+#footer-part .logo .icons i{
+    margin-top: 10px;
+    background: #cedfe4;
+    color: #157994;
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 30px;
+}
+#footer-part .contact a i{
+    color: #157994;
+    margin-right: 5px;
+}
+#footer-part .link a i{
+    color: #157994;
+    margin-right: 5px;
+}
+#footer-part .help a i{
+    color: #157994;
+    margin-right: 5px;
+}
+#footer-part .logo .icons i:hover {
+    background: #555555;
+    color: #fff;
+}
+#footer-part .link a {
+    display: block;
+    color: #555555;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+#footer-part .help a {
+    display: block;
+    color: #555555;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+#footer-part .contact a {
+    display: block;
+    color: #555555;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+/* FOOTER SECTION END HERE */
+
+
+/* COPYRIGHT SECTION START HERE */
+
+#copyright-part .line{
+    background: rgba(229, 229, 229,.5);
+    height: 2px;
+    width: 100%;
+}
+
+#copyright-part p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+    text-align: center;
+    margin-top: 30px;
+}
+#copyright-part span {
+    color: #1893B5;
+}
+
+/* COPYRIGHT SECTION END HERE */
